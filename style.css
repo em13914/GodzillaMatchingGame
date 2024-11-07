@@ -1,0 +1,67 @@
+/* build your layout */
+body {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: black;
+  background-size: 100%;
+}
+.title-row {
+  display: flex;
+  height: 10%;
+  width: 100%;
+}
+.card-row {
+  display: flex;
+  height: 45%;
+  width: 100%;
+}
+.card {
+  height: 100%;
+  width: 25%;
+}
+
+/* control your content */
+.center,
+.card {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+img {
+  max-height: 90%;
+  max-width: 90%;
+}
+.clickable {
+  cursor: pointer;
+}
+.clickable:active {
+  transform: scale(0.95);
+}
+.translucent {
+  opacity: 0.2;
+}
+.wrong {
+  filter: grayscale(100%);
+}
+
+/* colors */
+.green {
+  background-color: #637135;
+}
+.red {
+  background-color: #bc002d;
+}
+.black {
+  background-color: #000000;
+}
+.white {
+  background-color: #ffffff;
+}
+.light-grey {
+  background-color: #a9a9a9;
+}
+.dark-grey {
+  background-color: #707070;
+}
